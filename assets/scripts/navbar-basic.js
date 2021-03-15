@@ -43,4 +43,4 @@ export class YaxBasicNavbar extends LitElement {
 	}
 }
 
-customElements.define('yax-basic-navbar', YaxBasicNavbar);
+customElements.define('navbar-basic', YaxBasicNavbar);
