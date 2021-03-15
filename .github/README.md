@@ -6,6 +6,7 @@ The original README is below. These are my embrionic project notes. On completio
 210315
 - Installed from sites.yax.com
 - Tested Cloudflare Pages deployment to https://yax-miab-template.pages.dev/ (used 'echo done' as Build Command but probably not necessary. Otherwise just use defaults.)
+- Moved README to try and stop edits here triggering rebuilds. Let's commit to testing this ...
 - Used Gitpod to autocreate `.gitpod.yml` which adds this badge (manually positioned)...
 
 ---
