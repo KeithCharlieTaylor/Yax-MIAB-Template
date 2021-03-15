@@ -1,5 +1,15 @@
 # Project: Learning Yax Template Building
 
+The original README is below. These are my embrionic project notes. On completion, I will update this readme.
+## Story so far
+
+210315
+- Installed from sites.yax.com
+- Tested Cloudflare Pages deployment to https://yax-miab-template.pages.dev/ (used 'echo done' as Build Command but probably not necessary. Otherwise just use defaults.)
+- Used Gitpod to autocreate `.gitpod.yml` which adds this badge (manually positioned)...
+
+---
+
 This is the GitHub repository for the project you named "Yax-MIAB-Template", generated from the "yaxt-cssforest-bootstrap" website template at [yax.com](https://yax.com).
 
 From here, deploy your website for free hosting. Just click a button to deploy your website to [Netlify](https://www.netlify.com/), [Vercel](https://vercel.com/), or [Render.com](https://render.com/). During the process, you will create a second repo for deployment. Name it what you like; I suggest "Yax-MIAB-Template-deploy".
