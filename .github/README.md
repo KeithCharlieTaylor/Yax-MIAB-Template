@@ -1,9 +1,22 @@
 # Project: Learning Yax Template Building
 
 The original README is below. These are my embrionic project notes. On completion, I will update this readme.
-## Story so far
+## Story so far 
+Latest first:
 
-210315
+### 210315c
+Changed:
+-
+
+### 210315b
+I need to realize that the best approach seems to be:
+1. Create new branch in GitHub
+1. Work on that branch in Gitpod
+1. Check results in Cloudflare dev build
+1. Final push to main branch
+But it's all a learning process.
+
+### 210315a
 - Installed from sites.yax.com
 - Tested Cloudflare Pages deployment to https://yax-miab-template.pages.dev/ (used 'echo done' as Build Command but probably not necessary. Otherwise just use defaults.)
 - Moved README to try and stop edits here triggering rebuilds. Let's commit to testing this ...

@@ -1,34 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Learning Yax Template Building</title>
-    <meta name="description" content="Building a Yax template In Public. A 7 page variant of Yax CSS Forest Bootstrap Template. To prove the Microsite In A Box concept. Also to fill a workflow need.">
+    <meta name="description"
+        content="Building a Yax template In Public. A 7 page variant of Yax CSS Forest Bootstrap Template. To prove the Microsite In A Box concept. Also to fill a workflow need.">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mavo/0.2.0/mavo.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mavo/0.2.0/mavo.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/@vladocar/basic.css@1.0.3/css/basic.css">
     <link rel="stylesheet" href="/assets/styles/site.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
-    <script type="module" src="/assets/scripts/navbar-bootstrap.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"
+        integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf"
+        crossorigin="anonymous"></script>
+    <script type="module" src="/assets/scripts/navbar-basic.js"></script>
 </head>
-<body mv-app="Yax-MIAB-Template" mv-storage="https://github.com/KeithCharlieTaylor/Yax-MIAB-Template/blob/main/data" mv-plugins="tinymce" mv-bar="no-login">
 
-  <navbar-bootstrap></navbar-bootstrap>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <img class="mt-5" id="p1_image" property src="https://picsum.photos/400">
-        <h1 class="mt-5" id="p1_headline" property>CSS Forest: Bootstrap</h1>
-        <div class="tinymce" id="p1_content" property>
-          Edit here. Use the link <a href="?login">?login</a> to see the edit toolbar.
+<body mv-app="Yax-MIAB-Template" mv-storage="https://github.com/KeithCharlieTaylor/Yax-MIAB-Template/blob/main/data"
+    mv-plugins="tinymce" mv-bar="no-login">
+    <header>
+        <navbar-bootstrap></navbar-bootstrap>
+        <div style="text-align: center;margin-left: auto; margin-right: auto;">
+            <img class="need-asset-fix-src" id="p0_image" property src="https://picsum.photos/400">
+            <h1 class="yax-headline" id="p0_headline" property>Yax Microsite In A Box Template</h1>
         </div>
-      </div>
+    </header>
+    <div class="tinymce" id="p0_intro" property>
+        Edit this intro. Use the link <a href="?login">?login</a> to see the edit toolbar.
     </div>
-  </div>
+    <h2 id="p0_subhead" property>
+        Microsite Pages
+    </h2>
+
+    <section>
+        <article>
+            <header>
+                <h3 id="p1_title" property>
+                    Page 1 Title
+                </h3>
+            </header>
+            <div class="tinymce" id="p1_content" property>
+                Edit Page 1 summary.
+            </div>
+        </article>
+        <article>
+            <header>
+                <h3 id="p2_title" property>
+                    Page 2 Title
+                </h3>
+            </header>
+            <div class="tinymce" id="p2_content" property>
+                Edit Page 2 summary.
+            </div>
+        </article>
+        <article>
+            <header>
+                <h3 id="p3_title" property>
+                    Page 3 Title
+                </h3>
+            </header>
+            <div class="tinymce" id="p3_content" property>
+                Edit Page 3 summary.
+            </div>
+        </article>
+        <article>
+            <header>
+                <h3 id="p4_title" property>
+                    Page 4 Title
+                </h3>
+            </header>
+            <div class="tinymce" id="p4_content" property>
+                Edit Page 4 summary.
+            </div>
+        </article>
+        <article>
+            <header>
+                <h3 id="p5_title" property>
+                    Page 5 Title
+                </h3>
+            </header>
+            <div class="tinymce" id="p5_content" property>
+                Edit Page 5 summary.
+            </div>
+        </article>
+        <article>
+            <header>
+                <h3 id="p6_title" property>
+                    Page 6 Title
+                </h3>
+            </header>
+            <div class="tinymce" id="p6_content" property>
+                Edit Page 6 summary.
+            </div>
+        </article>
+        <article>
+            <header>
+                <h3 id="p7_title" property>
+                    Page 7 Title
+                </h3>
+            </header>
+            <div class="tinymce" id="p7_content" property>
+                Edit Page 7 summary.
+            </div>
+        </article>
+        <aside>
+            <p>
+                Author info
+            </p>
+        </aside>
+    </section>
+
+    <footer>
+        Copyright Info
+    </footer>
 
 </body>
+
 </html>
