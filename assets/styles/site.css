@@ -1,1 +1,3 @@
-/* CSS for the website */
+article {
+    min-width: 275px;
+}
