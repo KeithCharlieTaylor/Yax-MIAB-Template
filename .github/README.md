@@ -8,6 +8,9 @@ The original README is below. These are my embrionic project notes. On completio
 - Tested Cloudflare Pages deployment to https://yax-miab-template.pages.dev/ (used 'echo done' as Build Command but probably not necessary. Otherwise just use defaults.)
 - Moved README to try and stop edits here triggering rebuilds. Let's commit to testing this ...
 - Used Gitpod to autocreate `.gitpod.yml` which adds this badge (manually positioned)...
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/KeithCharlieTaylor/Yax-MIAB-Template)
+I've overthought the README issue because moving it to .github isn't recognized by Gitpod :(
++ Needs some expertize to define the best workflow. And a reminder to turn on Autosave as first task in Gitpod!
 
 ---
 
