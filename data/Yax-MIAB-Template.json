@@ -1,0 +1,20 @@
+{
+	"p0_image": "https://picsum.photos/400",
+	"p0_headline": "Yax Microsite In A Box Template",
+	"p0_intro": "\n        Edit this intro. Use the link <a href=\"?login\">?login</a> to see the edit toolbar.\n    ",
+	"p0_subhead": "\n        Microsite Pages\n    ",
+	"p1_title": "Title of First Page",
+	"p1_content": "<p>This summary has been edited using Mavo. So we accept that it will not auto-update just by changing Page 1. But with a microsite, we want to keep things simple.</p>",
+	"p2_title": "\n                    Page 2 Title\n                ",
+	"p2_content": "\n                Edit Page 2 summary.\n            ",
+	"p3_title": "\n                    Page 3 Title\n                ",
+	"p3_content": "\n                Edit Page 3 summary.\n            ",
+	"p4_title": "\n                    Page 4 Title\n                ",
+	"p4_content": "\n                Edit Page 4 summary.\n            ",
+	"p5_title": "\n                    Page 5 Title\n                ",
+	"p5_content": "\n                Edit Page 5 summary.\n            ",
+	"p6_title": "\n                    Page 6 Title\n                ",
+	"p6_content": "\n                Edit Page 6 summary.\n            ",
+	"p7_title": "\n                    Page 7 Title\n                ",
+	"p7_content": "\n                Edit Page 7 summary.\n            "
+}
