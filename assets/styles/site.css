@@ -1,1 +1,18 @@
-/* CSS for the website */
+article {
+    min-width: 275px;
+}
+@media (orientation: landscape) {
+img {
+    width: 640px;
+    height: 400px;
+    aspect-ratio: 640 / 400;
+  } 
+}
+@media (orientation: portrait) {
+img {
+    width: 400px;
+    min-width: 400px;
+    height: 640px;
+    aspect-ratio: 400 / 640;
+  } 
+}
