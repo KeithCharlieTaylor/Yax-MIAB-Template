@@ -11,12 +11,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mavo/0.2.0/mavo.min.css">
     <link rel="stylesheet" href="https://unpkg.com/@vladocar/basic.css@1.0.3/css/basic.css">
     <link rel="stylesheet" href="/assets/styles/site.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"
-        integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf"
-        crossorigin="anonymous"></script>
     <script type="module" src="/assets/scripts/navbar-basic.js"></script>
 </head>
 
@@ -25,7 +19,10 @@
     <header>
         <navbar-basic></navbar-basic>
         <div style="text-align: center;margin-left: auto; margin-right: auto;">
-            <img class="need-asset-fix-src" id="p0_image" property src="https://picsum.photos/400">
+            <picture>
+                <source media="(orientation: portrait)" srcset="/assets/uploads/microsite-400x640.webp">
+                <img src="/assets/uploads/microsite-640x400.webp" alt="What's a microsite?" property>
+            </picture>
             <h1 class="yax-headline" id="p0_headline" property>Yax Microsite In A Box Template</h1>
         </div>
     </header>
